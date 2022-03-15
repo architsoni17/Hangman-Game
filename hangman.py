@@ -3,7 +3,7 @@ import time
 n = input('Enter players name:')
 print('Welcome ' + n + ' to the Hangman game !')
 time.sleep(2)
-carCom = ['audi', 'bmw', 'mercedes', 'jaguar', 'mini', 'jeep', 'lamborghini',
+carCom = ['audi', 'BMW', 'mercedes', 'jaguar', 'mini', 'jeep', 'lamborghini',
           'ferrari', 'porsche', 'bentley', 'rollsroyce', 'toyota']
 car = random.choice(carCom)
 time.sleep(2)
